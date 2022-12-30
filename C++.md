@@ -38,3 +38,17 @@ string s;
 float f; 
 cin>>s>>f;
 ```
+
+#### 类型增强
+◆ C++对C语言的扩充
+
+>> 常变量类型const使用const修饰的变量称为常变量，C语言中的常变量可以通过指针修改，而C++中的常变量无法通过指针间接修改。
+
+#### string
+
+* *swap()*
+>可以通过 string.swap(string)调用
+ 也可以 swap(string, string)调用
+string的成员函数swap()只能交换string类型的字符串，不能交换C语言风格的字符串
+
+* *length()*
